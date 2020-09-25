@@ -8,8 +8,8 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-color: #12121f;
-    color: #eee;
+    background-color: #51C2CA;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +18,15 @@
 .calendar {
     width: 50rem;
     height: 50rem;
-    background-color: #333;
+    background-color: #eba5a8;
     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 
 .month {
     width: 100%;
     height: 10rem;
-    background-color: #839dac;
+    background-color: #F17075;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +83,7 @@
 }
 
 .days div:hover:not(.today){
-    background-color: #2b2a2a;
+    background-color: #F17075;
     cursor: pointer;
 }
 
@@ -95,5 +96,5 @@
 }
 
 .today {
-    background-color: #839dac;
+    background-color: #F17075;
 }
